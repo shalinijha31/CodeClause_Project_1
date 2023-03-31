@@ -1,0 +1,127 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #13a3a3;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+
+
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+    /* color: #13a3a3; */
+    margin-left: -10%;
+    color: #07516c;
+    text-shadow: 5px 2px 3px #f1ecf2, 2px 2px 5px #2b92b2;
+    
+}
+  
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600 PX;
+    font-size: 25PX;
+    margin-right: -10%;
+    
+}
+
+ 
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+
+
+
+  
+  /* designing the main section */
+  main {
+    /* height: 85vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 5%; */
+  }
+  
+  .myself {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .myself h1 {
+    margin-bottom: 5%;
+    color: white;
+    /* margin-left: -100%; */
+
+  }
+  
+  .myself p {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10%;
+  }
+  .myself p span{
+    font-size: 30px;
+    color: #13a3a3;
+    font-weight: 600;
+  }
+  
+
+  button{
+    background-color: #13a3a3;
+    padding: 5px 25px;
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+    border: 1px solid #13a3a3;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: #bbf5f5;
+    color: black;
+    border: 1px solid black;
+}
+.hero-section-right-btns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+  
+}
+
